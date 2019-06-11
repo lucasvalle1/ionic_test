@@ -12,21 +12,23 @@
             <div text-center>
               <h4>Entrar</h4>
             </div>
+            <form onSubmit="validLogin()">
             <div padding>
-              <ion-item>
-                <ion-icon name="mail"></ion-icon>
-                <ion-input type="text" placeholder=" Email"></ion-input>
-              </ion-item>
-      
-              <ion-item>
-                <ion-icon name="key"></ion-icon>
-                <ion-input type="password" placeholder=" Senha"></ion-input>
-              </ion-item>
+                <ion-item>
+                  <ion-icon name="mail"></ion-icon>
+                  <ion-input type="text" placeholder=" Email"></ion-input>
+                </ion-item>
+        
+                <ion-item>
+                  <ion-icon name="key"></ion-icon>
+                  <ion-input type="password" placeholder=" Senha"></ion-input>
+                </ion-item>
             </div>
-      
             <div padding>
-              <ion-button size="medium" href="/home" expand="block">Login</ion-button>
+              <ion-button type="submit" size="medium" href="/home" expand="block">Login</ion-button>
+              <ion-button size="medium" color="secondary" href="/cadastro" expand="block">Cadastro</ion-button>
             </div>
+          </form>
           </ion-col>
         </ion-row>
       </ion-grid>

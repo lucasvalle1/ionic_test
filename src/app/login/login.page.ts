@@ -11,5 +11,8 @@ export class LoginPage implements OnInit {
 
   ngOnInit() {
   }
+  validLogin(){
+    window.location.href= "home";
+  }
 
 }
