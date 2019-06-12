@@ -1,9 +1,58 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>perfil</ion-title>
+        <a href="/home" slot="start">
+          <ion-icon name="arrow-round-back"></ion-icon>Voltar          
+        </a>
+    <ion-title>Perfil</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Lucas Dalla Valle</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <p>Profissional Freelancer</p>
+            <ion-button size="small">
+                <ion-icon name="call"></ion-icon>
+            </ion-button>
+            <ion-button size="small">
+                <ion-icon  name="text"></ion-icon>         
+            </ion-button>
+            <ion-button size="small">
+                <ion-icon name="mail"></ion-icon>
+            </ion-button>
+            <ion-list>
+                <ion-list-header>
+                    <ion-label color="dark"><strong>Graduação</strong></ion-label>
+                </ion-list-header>
+                <ion-item class="ion-margin-bottom">Ensino Técnico em Informática para internet IF</ion-item>
+                <ion-item class="ion-margin-bottom">Cursando Ciência da Computação UCS</ion-item>
+            </ion-list>
+        </ion-card-content>
+    </ion-card>
+    <ion-card>
+            <ion-card-header>
+                <ion-card-title>Portfólio</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+                    <ion-grid>
+                        <ion-row class="portfolio">
+                            <ion-col style="background-image: url('../assets/port.jpg');" size="12">
+                            <div>Empresa 1 <br> <span>Interface Web</span> </div>
+                            </ion-col>
+                            <ion-col style="background-image: url('../assets/port.jpg');" size="12">
+                            <div>Empresa 2 <br> <span>Design Marca</span> </div>
+                            </ion-col>
+                            <ion-col style="background-image: url('../assets/port.jpg');" size="12">
+                            <div>Empresa 3 <br> <span>Marketing</span> </div>
+                            </ion-col>
+                            <ion-col  style="background-image: url('../assets/port.jpg');" size="12">
+                            <div>Empresa 4 <br> <span>Branding</span> </div>
+                            </ion-col>
+                        </ion-row>
+                    </ion-grid>
+            </ion-card-content>
+    </ion-card>
 </ion-content>

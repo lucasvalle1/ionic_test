@@ -1,0 +1,36 @@
+.portfolio ion-col{
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #9e9e9e;
+    padding: 0px !important;
+    div{
+        opacity: 0;
+        transition: all 0.3s linear;
+        width: 100%;
+        padding-top: 35%; 
+        padding-bottom: 35%;
+        height: 199px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        color: #30302e;
+        text-align: center;
+        vertical-align: middle;
+        font-weight: bold;
+        font-size: 22px;
+
+        span{
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+    
+}
+
+.portfolio ion-col:hover div{
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.8);
+    
+}
