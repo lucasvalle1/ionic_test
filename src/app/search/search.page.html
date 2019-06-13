@@ -1,9 +1,82 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>search</ion-title>
+    <a href="/home" slot="start">
+      <ion-icon name="arrow-round-back"></ion-icon>Voltar          
+    </a>
+    <ion-title>Pesquisar</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <ion-searchbar placeholder="Pesquisar"></ion-searchbar>
+  <ion-list class="ios list-ios hydrated">
+      <ion-list-header class="ios hydrated">
+        Profissionais Encontrados
+      </ion-list-header>
+      <a href="perfil">
+        <ion-item class="item ios in-list ion-focusable item-label hydrated">
+            <ion-avatar slot="start" class="ios hydrated">
+              <img src="../assets/avatar.png">
+            </ion-avatar>
+            <ion-label class="sc-ion-label-ios-h sc-ion-label-ios-s ios hydrated">
+              <h2>Gustavo Paiva</h2>
+              <h3>Programador Back End</h3>
+              <p>Experiencia 10 anos, Cursando faculdade de Ciência da Computação</p>
+            </ion-label>
+          </ion-item>
+      </a>
+      <a href="perfil">
+        <ion-item class="item ios in-list ion-focusable item-label hydrated">
+          <ion-avatar slot="start" class="ios hydrated">
+            <img src="../assets/avatar.png">
+          </ion-avatar>
+          <ion-label class="sc-ion-label-ios-h sc-ion-label-ios-s ios hydrated">
+            <h2>Eduardo Cagol</h2>
+            <h3>Designer iniciante programação</h3>
+            <p>Experiência de 1 ano com criação de marcas</p>
+          </ion-label>
+        </ion-item>
+      </a>
+      <a href="perfil">
+        <ion-item class="item ios in-list ion-focusable item-label hydrated">
+          <ion-avatar slot="start" class="ios hydrated">
+            <img src="../assets/avatar.png">
+          </ion-avatar>
+          <ion-label class="sc-ion-label-ios-h sc-ion-label-ios-s ios hydrated">
+            <h2>Lucas Dalla Valle</h2>
+            <h3>Programador front-end</h3>
+            <p>Cursando Ciência da Computação UCS</p>
+          </ion-label>
+        </ion-item>
+      </a>
+      <a href="perfil">
+        <ion-item class="item ios in-list ion-focusable item-label hydrated">
+          <ion-avatar slot="start" class="ios hydrated">
+            <img src="../assets/avatar.png">
+          </ion-avatar>
+          <ion-label class="sc-ion-label-ios-h sc-ion-label-ios-s ios hydrated">
+            <h2>João Pedro</h2>
+            <h3>Marketing Digital</h3>
+            <p>Cuido de redes sociais em midias paga.</p>
+          </ion-label>
+        </ion-item>
+      </a>
+      <a href="perfil">
+        <ion-item class="item ios in-list ion-focusable item-label hydrated">
+          <ion-avatar slot="start" class="ios hydrated">
+            <img src="../assets/avatar.png">
+          </ion-avatar>
+          <ion-label class="sc-ion-label-ios-h sc-ion-label-ios-s ios hydrated">
+            <h2>Luke</h2>
+            <h3>Analista de Sistemas</h3>
+            <p>Estudo de viabilidade de projeto e agenciamento de equipe</p>
+          </ion-label>
+        </ion-item>
+      </a>
+    </ion-list>
+    <br>
+    <br>
 </ion-content>
+<ion-footer>
+    <app-tabs></app-tabs>
+</ion-footer>

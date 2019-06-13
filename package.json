@@ -29,7 +29,6 @@
     "bootstrap": "^4.0.0",
     "console": "^0.7.2",
     "cordova-android": "8.0.0",
-    "cordova-plugin-console": "^1.1.0",
     "core-js": "^2.5.4",
     "rxjs": "~6.5.1",
     "tslib": "^1.9.0",
@@ -71,7 +70,6 @@
   "description": "An Ionic project",
   "cordova": {
     "plugins": {
-      "cordova-plugin-console": {},
       "cordova-plugin-whitelist": {},
       "cordova-plugin-statusbar": {},
       "cordova-plugin-device": {},
